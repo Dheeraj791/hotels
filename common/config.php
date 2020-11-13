@@ -2,7 +2,7 @@
 define('SITE_TITLE', 'hotelmanagement');
 define('TIME_ZONE', 'Europe/London');
 define('DATE_FORMAT', '%F');
-define('TIME_FORMAT', '%I:%M %P');
+define('TIME_FORMAT', '%I:%M%P');
 define('CURRENCY_ENABLED', '1');
 define('CURRENCY_POS', 'before'); // before or after
 define('LANG_ENABLED', '0');

@@ -450,7 +450,11 @@ if(ENABLE_COOKIES_NOTICE == 1 && !isset($_COOKIE['cookies_enabled'])){ ?>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo DOCBASE.trim(LANG_ALIAS, "/"); ?>" title="<?php echo $homepage['title']; ?>"></a>
+                    <a class="navbar-brand" href="<?php echo DOCBASE.trim(LANG_ALIAS, "/"); ?>" title="<?php echo $homepage['title']; ?>">
+                    <img src="templates/default/images/logo.png" alt="Nest Multi Resorts" style="
+    padding-bottom: 8vh;
+    opacity: .75;
+"></a>
                 </div>
             </div>
         </div>

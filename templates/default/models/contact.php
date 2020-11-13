@@ -97,7 +97,6 @@ require(getFromTemplate('common/header.php', false)); ?>
     <?php include(getFromTemplate('common/page_header.php', false)); ?>
     
     <div id="content" class="clearfix">
-        <div id="mapWrapper" data-marker="<?php echo getFromTemplate('images/marker.png'); ?>"></div>
         <div class="container pt30 pb15">
             
             <?php

@@ -741,7 +741,7 @@ body[dir="rtl"] .labels {
     width: 15px;
 }
 .hotBox {
-    padding: 20px;
+    padding: 6px;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
